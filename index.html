@@ -6,67 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="css/bootstrap.css">
-    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
 
     <title>Psimuvv</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-sm bg-black navbar-dark fixed-top mb-5">
         <div class="container-fluid">
-            <!-- Links -->
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                <a class="navbar-brand" href="#"> <img src="imagens/Logo.png" alt="Psimuvv" style="width:50px;"> </a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Inicio</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Depoimentos</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Cadastro</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Consulta</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Nossa Equipe</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Sobre Nós</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Login</a>
-                </li>
-            </ul>
+            <a class="navbar-brand" href="#"> <img src="imagens/Logo.png" alt="Psimuvv" style="width:50px;"> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Consulta</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Nossa Equipe</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Depoimentos</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre Nós</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Perfil</a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Entrar</a></li>
+                        <li><a class="dropdown-item" href="#">Cadastrar</a></li>
+                        </ul>
+                    </li>
+                </ul    >
+            </div>
         </div>
     </nav>
 
     <div class="container mt-5">
         <div class="row">
             <div class="col-sm-6">
-                <h2 class="mt-5">Violência Doméstica</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Ut pharetra mattis justo ornare auctor.
-                    Fusce cursus et tortor pharetra placerat.
-                    Vestibulum feugiat id mi condimentum iaculis.
-                    Vestibulum sit amet enim tortor.
-                    Cras vitae cursus ante, id interdum ipsum.
-                    Nullam vehicula neque ac velit condimentum fringilla.
-                    Sed cursus, ex quis pellentesque feugiat, tortor orci suscipit eros, in sodales neque nunc scelerisque turpis.
-                    Phasellus metus metus, porta vel interdum ut, facilisis convallis lacus.
-                    Mauris molestie mollis vestibulum. Morbi sit amet elementum lorem.
-                    Pellentesque pulvinar nibh ac facilisis rutrum. Ut iaculis tortor vel euismod pharetra.</p>
+                <h2 class="mt-5" style="text-align: justify;">Violência Doméstica</h2>
+                <p class="text-justify text-wrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pharetra mattis justo ornare auctor. Fusce cursus et tortor pharetra placerat. Vestibulum feugiat id mi condimentum iaculis. Vestibulum sit amet enim tortor. Cras vitae cursus ante, id interdum ipsum. Nullam vehicula neque ac velit condimentum fringilla. Sed cursus, ex quis pellentesque feugiat, tortor orci suscipit eros, in sodales neque nunc scelerisque turpis. Phasellus metus metus, porta vel interdum ut, facilisis convallis lacus. Mauris molestie mollis vestibulum. Morbi sit amet elementum lorem. Pellentesque pulvinar nibh ac facilisis rutrum. Ut iaculis tortor vel euismod pharetra.</p>
                 <div class="d-flex justify-content-center">
                     <img src="imagens/grafico.png" alt="Grafico" style="width:300px;">
                 </div>
+
                 <hr class="d-sm-none">
             </div>
+
             <div class="col-sm-6">
+
                 <div class="d-flex justify-content-center">
                     <img class="mt-5 " src="imagens/grafico.png" alt="Grafico" style="width:300px;">
                 </div>
+
                 <h2>Por que fazer terapia?</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Ut pharetra mattis justo ornare auctor.
@@ -83,7 +81,7 @@
         </div>
         <div class="row">
             <div class="container d-flex justify-content-center">
-                <a href="#" class="btn btn-dark"> Consulta</a>
+                <a href="#" class="btn btn-dark btn-lg mt-5 mb-5"> Consulta</a>
             </div>
         </div>
     </div>

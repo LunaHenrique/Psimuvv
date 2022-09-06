@@ -1,5 +1,5 @@
 <html>
-    <nav class="navbar navbar-expand-sm bg-primary navbar-dark fixed-top mb-5">
+    <nav class="navbar navbar-expand-sm bg-primary navbar-dark mb-5">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"> <img src="imagens/Logo.png" alt="Psimuvv" style="width:50px;"> </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -30,7 +30,7 @@
                         <li><a class="dropdown-item bg-primary text-secondary my-0" href="cadastro.php">Cadastrar</a></li>
                         </ul>
                     </li>
-                </ul    >
+                </ul>
             </div>
         </div>
     </nav>

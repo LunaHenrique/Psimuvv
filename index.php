@@ -17,7 +17,7 @@
 
     <div class="container mt-5">
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-6">adsada
                 <h2 class="mt-5" style="text-align: justify;">Violência Doméstica</h2>
                 <p class="text-justify text-wrap">Infelizmente, a violência doméstica e familiar contra a mulher ainda é uma realidade no Brasil, já que, por exemplo, 57% dos brasileiros conhecem alguma mulher que foi vítima de ameaça de morte pelo atual parceiro. Nesses casos, a violência pode ser entendida como qualquer ação ou omissão influenciada pelo gênero da vítima que lhe cause  morte, lesão, sofrimento físico, sexual ou psicológico, além de danos morais ou patrimoniais. </p>
                 <div class="d-flex justify-content-center">

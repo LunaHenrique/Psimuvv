@@ -5,6 +5,11 @@ h1, h2, h3, h4, h5, h6{
     font-weight: bold;
 }
 
+span{
+    color: darkgray;
+    font-weight: bolder;
+}
+
 .card-header, .card-body{
     color: #F1FFE8;
 }
@@ -29,7 +34,6 @@ h1, h2, h3, h4, h5, h6{
 }
 
 /*DEPOIMENTOS*/
-
 .carousel-control-prev, .carousel-control-next{
     width: 50px;
     background-color: #B3B6E3;
@@ -49,4 +53,19 @@ h1, h2, h3, h4, h5, h6{
 #card-depoimentos{
     color: black;
     border: 0;
+    display: inline;
+}
+
+#card-depoimentos-data{
+    display: inline;
+}
+
+/*NOSSA EQUIPE*/
+#card-img-nossa-equipe{
+    height: 100px;
+    width: min-content;
+    display: inline;
+}
+#card-body-nossa-equipe>*{
+    display: inline;
 }

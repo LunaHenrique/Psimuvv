@@ -75,6 +75,43 @@
     </div>
 </section>
 
+<!-- NOSSA EQUIPE -->
+<section id="nossa-equipe"  class="container my-5">
+    <h1 class="text-center">Nossa Equipe</h1>
+    <p class="text-center">Conheça nossos profissionais voluntários que estão aqui para te acolher.
+    <div class="row">
+        <div class="col-sm-6 mb-2">
+            <div id="card-nossa-equipe" class="card mx-auto bg-primary border border-0">
+                <div class="card-body" id="card-body-nossa-equipe">
+                    <div class="row">
+                        <div class="col-1"><img class="card-img-top" id="card-img-nossa-equipe" src="imagens/depoimentos-6.png"></div>
+                        <div class="col-11">
+                            <h3 class="mt-3">Big Yoshi</h3>
+                            <p>CRP: 22/242429<p>
+                            <p>Abordagem: TCC</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div id="card-nossa-equipe" class="card mx-auto bg-primary border border-0">
+                <div class="card-body" id="card-body-nossa-equipe">
+                    <div class="row">
+                        <div class="col-1"><img class="card-img-top" id="card-img-nossa-equipe" src="imagens/depoimentos-6.png"></div>
+                        <div class="col-11">
+                            <h3 class="mt-3">Big Yoshi</h3>
+                            <p>CRP: 22/242429<p>
+                            <p>Abordagem: TCC</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
 <!-- LOGIN E CADASTRO -->
 <section id="perfil" class="container my-5">
     <h1 class="text-center">Perfil</h1>
@@ -311,7 +348,7 @@
                 <div class="carousel-item active">
                     <div class="card mb-3">
                         <div id="card-depoimentos" class="card-body"> 
-                            <h4>Anônima</h4> <h5>11/11/1111</h5>
+                            <h4 id="card-depoimentos-data">Anônima</h4> <span>23/13/2023</span>
                             <p>Depois que as consultas começaram a minha qualidade de vida melhorou em 100%, graças às consultas pude compreender que eu não tive culpa nenhuma pela violência que sofri. Os psicólogos são muito acolhedores e atenciosos, e eu sou muito grata por terem me ouvido. Se você está com medo de se consultar, fique tranquila, aqui você será acolhida e ajudada! Muito obrigado por toda a ajuda, super recomendo a plataforma! </p>
                         </div>
                     </div>
@@ -319,7 +356,7 @@
                 <div class="carousel-item">
                     <div class="card mb-3">
                         <div id="card-depoimentos" class="card-body"> 
-                            <h4>Anonima</h4> <h5>11/11/1111</h5>
+                            <h4  id="card-depoimentos-data">Anônima</h4> <span>30/02/2022</span>
                             <p>Nunca imaginei que fazer terapia seria tão bom para mim, eu tinha o preconceito de que terapia era algo para doidos, mas eu estava errada, todos precisam de terapia, ainda mais depois de passar por uma situação traumática como eu passei. Eu tive muito medo de me cadastrar na plataforma, mas depois de ler o depoimento de outra paciente, finalmente criei coragem e foi a melhor coisa que já fiz. Graças a ajuda dos psicólogos tenho conseguido superar tudo que me aconteceu no passado, gostaria de agradecer por todo acolhimento e compreensão que eu encontrei aqui. Também gostaria de agradecer aos criadores da plataforma, porque eu jamais teria como pagar essas consultas, ainda mais depois da pandemia, então novamente muito obrigado! Recomendo a plataforma e te digo que não tenha medo de se cadastrar e consultar. </p>
                         </div>
                     </div>
@@ -327,7 +364,7 @@
                 <div class="carousel-item">
                     <div class="card mb-3">
                         <div id="card-depoimentos" class="card-body"> 
-                            <h4>Anonima</h4> <h5>11/11/1111</h5>
+                            <h4 id="card-depoimentos-data">Anônima</h4> <span>21/00/2010</span>
                             <p>Iniciar esse tratamento foi a melhor coisa que eu já fiz por mim, em muito tempo.Eu cheguei a essa plataforma e as consultas, cheia de receios e traumas, e assim que comecei o tratamento todos os meus receios sumiram- aqui eu encontrei psicólogos profissionais que estão dispostos a ouvir, aconselhar e ajudar todas as suas pacientes, embora as consultas sejam online parece que eles na sala de casa, de tão acolhida que eu me sinto- e aos poucos- porque eu sei que vai levar tempo- todos os meus traumas e medos estão indo embora. Muito obrigado por todo serviço prestado, tanto pelos psicólogos quanto pelos desenvolvedores dessa plataforma- porque eu não teria condições financeiras para arcar com o valor das consultas. Recomendo a plataforma e tive uma ótima experiência!</p>
                         </div>
                     </div>

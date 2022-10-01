@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+
+.card-header, .card-body{
+    color: #F1FFE8;
+}
+
+.card-link{
+    text-decoration: none;
+}
+
+/*SOBRE NOS*/
+.sobre-nos-texto{
+    text-align: justify;
+}
+
+#card-sobre-nos{
+    color: black;
+    border: 0;
+}
+
+#card-sobre-nos:hover{
+    background-color: #B3B6E3;
+    color: white;
+}
+
+/*DEPOIMENTOS*/
+
+.carousel-control-prev, .carousel-control-next{
+    width: 50px;
+    background-color: #B3B6E3;
+}
+
+@media (max-width: 576px) {
+    .carousel{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .carousel-control-prev, .carousel-control-next{
+        width: 0px;
+        background-color: #B3B6E3;
+    }
+}
+
+#card-depoimentos{
+    color: black;
+    border: 0;
+}

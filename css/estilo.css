@@ -18,6 +18,16 @@ span{
     text-decoration: none;
 }
 
+/*CONSULTA*/
+#consulta-acolhimento{
+    background-color: #B3B6E3;
+    border-radius: 10px;
+}
+
+#consulta-subtitulo-texto{
+    color: white;
+}
+
 /*SOBRE NOS*/
 .sobre-nos-texto{
     text-align: justify;
@@ -64,8 +74,6 @@ span{
 #card-img-nossa-equipe{
     height: 100px;
     width: min-content;
-    display: inline;
 }
 #card-body-nossa-equipe>*{
-    display: inline;
 }

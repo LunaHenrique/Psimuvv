@@ -29,16 +29,16 @@
                     <a class="nav-link text-secondary" href="#">Consulta</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link text-secondary" href="#">Nossa Equipe</a>
+                    <a class="nav-link text-secondary" href="#nossa-equipe">Nossa Equipe</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-secondary" href="#perfil">Perfil</a>
                     </li>
                     <li class="nav-item">
                     <a class="nav-link text-secondary" href="#depoimentos">Depoimentos</a>
                     </li>
                     <li class="nav-item">
                     <a class="nav-link text-secondary" href="#sobre-nos">Sobre Nós</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link text-secondary" href="#perfil">Perfil</a>
                     </li>
                 </ul>
             </div>
@@ -67,10 +67,39 @@
                 <p>Muitas pessoas acham que terapia é “coisa de doido”, “frescura” ou só uma “conversinha”, mas terapia é um ambiente livre de julgamentos e seguro em que você e seu pscicoterapeuta/psicólogo caminharão juntos em direção à melhora da sua saúde mental e qualidade de vida. </p>
             </div>
         </div>
-        <div class="row">
-            <div class="container d-flex justify-content-center">
-                <a href="#" class="bg-primary text-secondary btn btn-dark btn-lg my-5 btn-outline-light"> Consulta</a>
-            </div>
+    </div>
+</section>
+
+<!-- CONSULTA -->
+<section id="consulta" class="container my-5">
+    <h1 class="text-center">Consulta</h1>
+    <div class="row">
+        <div class=col-sm-6>
+            <form action="">
+                <div id="consulta-acolhimento" class="container p-3">
+                    <h2 id="consulta-subtitulo-texto" class="text-center">Acolhimento</h1>
+                    <div class="mb-3 mt-3 form-floating">
+                        <input type="text" class="form-control" id="acolhimento-nome" placeholder="Big Yoshi da Silva" name="acolhimento-nome">
+                        <label for="acolhimento-nome" class="form-label">Nome completo</label>
+                    </div>
+                    <div class="mb-3 form-floating">
+                        <input type="text" class="form-control" onkeypress="$(this).mask('(00) 00000-0000');" id="acolhimento-cel" placeholder="(00) 00000-0000" name="acolhimento-cel">
+                        <label for="acolhimento-cel" class="form-label">Celular</label>
+                    </div>
+                    <div class="mb-3 form-floating">
+                        <input type="email" class="form-control" id="acolhimento-email" placeholder="exemplo@email.com" name="acolhimento-email">
+                        <label for="acolhimento-email" class="form-label">Email:</label>
+                    </div>
+                    <div class="mb-3">
+                        <!--<label for="acolhimento-mensagem" class="form-label">Mensagem</label>-->
+                        <textarea class="form-control" rows="5" id="acolhimento-mensagem" name="acolhimento-mensagem" placeholder="Descreva sua situação"></textarea>   
+                    </div>
+                    <button type="submit" class="btn btn-dark bg-primary text-secondary btn-lg btn-outline-light mx-auto d-block" data-bs-dismiss="modal">Enviar</button>
+                </div>
+            </form>
+        </div>
+        <div class=col-sm-6>
+            
         </div>
     </div>
 </section>
@@ -78,15 +107,17 @@
 <!-- NOSSA EQUIPE -->
 <section id="nossa-equipe"  class="container my-5">
     <h1 class="text-center">Nossa Equipe</h1>
-    <p class="text-center">Conheça nossos profissionais voluntários que estão aqui para te acolher.
+    <p class="text-center">Conheça nossos profissionais voluntários que estão aqui para te acolher.</p>
     <div class="row">
-        <div class="col-sm-6 mb-2">
+        <div class="col-sm-4 mb-2">
             <div id="card-nossa-equipe" class="card mx-auto bg-primary border border-0">
                 <div class="card-body" id="card-body-nossa-equipe">
                     <div class="row">
-                        <div class="col-1"><img class="card-img-top" id="card-img-nossa-equipe" src="imagens/depoimentos-6.png"></div>
-                        <div class="col-11">
-                            <h3 class="mt-3">Big Yoshi</h3>
+                        <div class="col-4">
+                            <img class="card-img-top" id="card-img-nossa-equipe" src="imagens/depoimentos-6.png">
+                        </div>
+                        <div class="col-8">
+                            <h3 class="mt-3">Big Yoshi</h3> 
                             <p>CRP: 22/242429<p>
                             <p>Abordagem: TCC</p>
                         </div>
@@ -94,13 +125,81 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-4 mb-2">
             <div id="card-nossa-equipe" class="card mx-auto bg-primary border border-0">
                 <div class="card-body" id="card-body-nossa-equipe">
                     <div class="row">
-                        <div class="col-1"><img class="card-img-top" id="card-img-nossa-equipe" src="imagens/depoimentos-6.png"></div>
-                        <div class="col-11">
-                            <h3 class="mt-3">Big Yoshi</h3>
+                        <div class="col-4">
+                            <img class="card-img-top" id="card-img-nossa-equipe" src="imagens/depoimentos-6.png">
+                        </div>
+                        <div class="col-8">
+                            <h3 class="mt-3">Big Yoshi</h3> 
+                            <p>CRP: 22/242429<p>
+                            <p>Abordagem: TCC</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 mb-2">
+            <div id="card-nossa-equipe" class="card mx-auto bg-primary border border-0">
+                <div class="card-body" id="card-body-nossa-equipe">
+                    <div class="row">
+                        <div class="col-4">
+                            <img class="card-img-top" id="card-img-nossa-equipe" src="imagens/depoimentos-6.png">
+                        </div>
+                        <div class="col-8">
+                            <h3 class="mt-3">Big Yoshi</h3> 
+                            <p>CRP: 22/242429<p>
+                            <p>Abordagem: TCC</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+    <div class="col-sm-4 mb-2">
+            <div id="card-nossa-equipe" class="card mx-auto bg-primary border border-0">
+                <div class="card-body" id="card-body-nossa-equipe">
+                    <div class="row">
+                        <div class="col-4">
+                            <img class="card-img-top" id="card-img-nossa-equipe" src="imagens/depoimentos-6.png">
+                        </div>
+                        <div class="col-8">
+                            <h3 class="mt-3">Big Yoshi</h3> 
+                            <p>CRP: 22/242429<p>
+                            <p>Abordagem: TCC</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 mb-2">
+            <div id="card-nossa-equipe" class="card mx-auto bg-primary border border-0">
+                <div class="card-body" id="card-body-nossa-equipe">
+                    <div class="row">
+                        <div class="col-4">
+                            <img class="card-img-top" id="card-img-nossa-equipe" src="imagens/depoimentos-6.png">
+                        </div>
+                        <div class="col-8">
+                            <h3 class="mt-3">Big Yoshi</h3> 
+                            <p>CRP: 22/242429<p>
+                            <p>Abordagem: TCC</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 mb-2">
+            <div id="card-nossa-equipe" class="card mx-auto bg-primary border border-0">
+                <div class="card-body" id="card-body-nossa-equipe">
+                    <div class="row">
+                        <div class="col-4">
+                            <img class="card-img-top" id="card-img-nossa-equipe" src="imagens/depoimentos-6.png">
+                        </div>
+                        <div class="col-8">
+                            <h3 class="mt-3">Big Yoshi</h3> 
                             <p>CRP: 22/242429<p>
                             <p>Abordagem: TCC</p>
                         </div>
@@ -115,7 +214,6 @@
 <!-- LOGIN E CADASTRO -->
 <section id="perfil" class="container my-5">
     <h1 class="text-center">Perfil</h1>
-
     <div class="container-fluid">
         <div class="row">
         <div class="col-sm-4">
@@ -161,6 +259,7 @@
             </div>   
         </div>
     </div>
+
     <!-- MODALS -->
     <div class="modal" id="modalLogin">
         <div class="modal-dialog">

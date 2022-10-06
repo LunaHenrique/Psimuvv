@@ -10,6 +10,7 @@
 
     <script src="js/bootstrap.bundle.js">   </script>
     <script src="js/autohide-navbar.js">    </script> <!-- JAVASCRIPT USADO PARA ESCONDER A BARRA DE NAVEGAÇÂO, FONTE:  https://bootstrap-menu.com/detail-autohide.html-->
+    <script src="js/agendar.js">            </script>
 
     <title>Psimuvv</title>
 </head>
@@ -79,6 +80,7 @@
 <section id="consulta" class="container my-5">
     <h1 class="text-center">Consulta</h1>
     <div class="row">
+        <!--Acolhimento-->
         <div class=col-sm-6>
             <form action="">
                 <div id="consulta-container" class="container p-3 mb-3">
@@ -103,20 +105,22 @@
                 </div>
             </form>
         </div>
+        <!--Agendamento-->
         <div class=col-sm-6>
             <div id="consulta-container" class="container p-3">
                 <h2 id="consulta-subtitulo-texto" class="text-center">Agendamento</h2>
                 <h5 id="consulta-subtitulo-texto" class="text-center">Nossas profissionais trabalham em consultas semanais, por isso escolha o dia e horario dos encontros</h5>
                 <div class="row">
                     <div class="col-6">
-                        <button id="btn-agendar-semana" type="button" class="btn mb-2">Segunda</button>
-                        <button id="btn-agendar-semana" type="button" class="btn mb-2">Terça</button>
-                        <button id="btn-agendar-semana" type="button" class="btn mb-2">Quarta</button>
-                        <button id="btn-agendar-semana" type="button" class="btn mb-2">Quinta</button>
-                        <button id="btn-agendar-semana" type="button" class="btn mb-2">Sexta</button>
-                        <button id="btn-agendar-semana" type="button" class="btn mb-2">Sabado</button>
+                        <button id="btn-agendar-semana" type="button" class="btn mb-2" onClick="mostrarHorarios()" >Segunda</button>
+                        <button id="btn-agendar-semana" type="button" class="btn mb-2" onClick="mostrarHorarios()">Terça</button>
+                        <button id="btn-agendar-semana" type="button" class="btn mb-2" onClick="mostrarHorarios()">Quarta</button>
+                        <button id="btn-agendar-semana" type="button" class="btn mb-2" onClick="mostrarHorarios()">Quinta</button>
+                        <button id="btn-agendar-semana" type="button" class="btn mb-2" onClick="mostrarHorarios()">Sexta</button>
+                        <button id="btn-agendar-semana" type="button" class="btn mb-2" onClick="mostrarHorarios()">Sabado</button>
                     </div>
-                    <div class="col-6">
+
+                    <div id="agendar-horarios" class="col-6">
                         <button id="btn-agendar-semana" type="button" class="btn mb-2">10:00</button>
                         <button id="btn-agendar-semana" type="button" class="btn mb-2">11:00</button>
                         <button id="btn-agendar-semana" type="button" class="btn mb-2">12:00</button>

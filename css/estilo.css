@@ -48,6 +48,10 @@ span{
     width: 100%;
 }
 
+#agendar-horarios{
+    display: none;
+}
+
 /*SOBRE NOS*/
 .sobre-nos-texto{
     text-align: justify;

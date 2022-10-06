@@ -17,15 +17,35 @@ span{
 .card-link{
     text-decoration: none;
 }
-
+.scrolled-down{
+    transform:translateY(-100%); transition: all 0.3s ease-in-out;
+}
+.scrolled-up{
+    transform:translateY(0); transition: all 0.3s ease-in-out;
+}
 /*CONSULTA*/
-#consulta-acolhimento{
+#consulta-container{
     background-color: #B3B6E3;
     border-radius: 10px;
+    min-height: 525px;
 }
 
 #consulta-subtitulo-texto{
     color: white;
+}
+
+#btn-agendar-semana{
+    background-color: white;
+    color: black;
+    display: block;
+    width: 100%;
+}
+
+#btn-agendar-semana:focus{
+    background-color: #8284a5;
+    color: black;
+    display: block;
+    width: 100%;
 }
 
 /*SOBRE NOS*/
@@ -44,20 +64,26 @@ span{
 }
 
 /*DEPOIMENTOS*/
+
+#depoimentos{
+    min-height: 300px;
+}
+
 .carousel-control-prev, .carousel-control-next{
     width: 50px;
-    background-color: #B3B6E3;
 }
 
 @media (max-width: 576px) {
+    #depoimentos{
+        min-height: 620px;
+    }
     .carousel{
         padding-left: 0;
         padding-right: 0;
     }
     .carousel-control-prev, .carousel-control-next{
         width: 0px;
-        background-color: #B3B6E3;
-    }
+    } 
 }
 
 #card-depoimentos{
@@ -74,6 +100,4 @@ span{
 #card-img-nossa-equipe{
     height: 100px;
     width: min-content;
-}
-#card-body-nossa-equipe>*{
 }

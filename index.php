@@ -6,48 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css\estilo.css">
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <script src="js/bootstrap.bundle.js">   </script>
+    <script src="js/autohide-navbar.js">    </script> <!-- JAVASCRIPT USADO PARA ESCONDER A BARRA DE NAVEGAÇÂO, FONTE:  https://bootstrap-menu.com/detail-autohide.html-->
+
     <title>Psimuvv</title>
 </head>
-<body>
-<!-- CABEÇALHO -->
-<section id="cabeçalho">
-    <nav class="navbar navbar-expand-sm bg-primary navbar-dark mb-5 fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"> <img src="imagens/Logo.png" alt="Psimuvv" style="width:50px;"> </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+<!-- BARRA DE NAVEGAÇÃO -->
+<header>
+    <section id="cabeçalho">
+        <nav class="autohide navbar navbar-expand-sm bg-primary navbar-dark mb-5 fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"> <img src="imagens/Logo.png" alt="Psimuvv" style="width:50px;"> </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                    <a class="nav-link text-secondary" href="#inicio">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link text-secondary" href="#">Consulta</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link text-secondary" href="#nossa-equipe">Nossa Equipe</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link text-secondary" href="#perfil">Perfil</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link text-secondary" href="#depoimentos">Depoimentos</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link text-secondary" href="#sobre-nos">Sobre Nós</a>
-                    </li>
-                </ul>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#consulta">Consulta</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#nossa-equipe">Nossa Equipe</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#perfil">Perfil</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#depoimentos">Depoimentos</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#sobre-nos">Sobre Nós</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-</section>
+        </nav>
+    </section>
+</header>
 
+<body>
 <!-- INICIO -->
-<section id="inicio" class="container my-5 pt-5">
+<section id="inicio" class="container my-5">
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
@@ -76,8 +81,8 @@
     <div class="row">
         <div class=col-sm-6>
             <form action="">
-                <div id="consulta-acolhimento" class="container p-3">
-                    <h2 id="consulta-subtitulo-texto" class="text-center">Acolhimento</h1>
+                <div id="consulta-container" class="container p-3 mb-3">
+                    <h2 id="consulta-subtitulo-texto" class="text-center">Acolhimento</h2>
                     <div class="mb-3 mt-3 form-floating">
                         <input type="text" class="form-control" id="acolhimento-nome" placeholder="Big Yoshi da Silva" name="acolhimento-nome">
                         <label for="acolhimento-nome" class="form-label">Nome completo</label>
@@ -99,7 +104,29 @@
             </form>
         </div>
         <div class=col-sm-6>
-            
+            <div id="consulta-container" class="container p-3">
+                <h2 id="consulta-subtitulo-texto" class="text-center">Agendamento</h2>
+                <h5 id="consulta-subtitulo-texto" class="text-center">Nossas profissionais trabalham em consultas semanais, por isso escolha o dia e horario dos encontros</h5>
+                <div class="row">
+                    <div class="col-6">
+                        <button id="btn-agendar-semana" type="button" class="btn mb-2">Segunda</button>
+                        <button id="btn-agendar-semana" type="button" class="btn mb-2">Terça</button>
+                        <button id="btn-agendar-semana" type="button" class="btn mb-2">Quarta</button>
+                        <button id="btn-agendar-semana" type="button" class="btn mb-2">Quinta</button>
+                        <button id="btn-agendar-semana" type="button" class="btn mb-2">Sexta</button>
+                        <button id="btn-agendar-semana" type="button" class="btn mb-2">Sabado</button>
+                    </div>
+                    <div class="col-6">
+                        <button id="btn-agendar-semana" type="button" class="btn mb-2">10:00</button>
+                        <button id="btn-agendar-semana" type="button" class="btn mb-2">11:00</button>
+                        <button id="btn-agendar-semana" type="button" class="btn mb-2">12:00</button>
+                        <button id="btn-agendar-semana" type="button" class="btn mb-2">13:00</button>
+                        <button id="btn-agendar-semana" type="button" class="btn mb-2">14:00</button>
+                        <button id="btn-agendar-semana" type="button" class="btn mb-2">15:00</button>
+                    </div>
+                </div>
+                <p id="consulta-subtitulo-texto">Mais instruções serão enviadas ao seu email, e você sera notificada quando a data se aproximar, caso deseje agendar com uma profissional específica, favor contatar a equipe Psimuvv.</p>
+            </div>
         </div>
     </div>
 </section>
@@ -428,57 +455,53 @@
 
 <!-- DEPOIMENTOS -->
 <section id="depoimentos" class="container my-5">
-    <div class="row">
-            <div class="col-sm-12">
-                <h2>Depoimentos</h2>
-                
-        <!-- CARROSEL DOS DEPOIMENTOS, MUITO COMPLICADO CUIDADO PRA NÃO QUEBRAR -->
-        <div id="depoimentos-carrosel" class="carousel slide px-5" data-bs-ride="carousel">
+    <h2>Depoimentos</h2>
 
-            <!-- Indicadores/Pontinhos -->
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#depoimentos-carrosel" data-bs-slide-to="0" class="active"></button>
-                <button type="button" data-bs-target="#depoimentos-carrosel" data-bs-slide-to="1"></button>
-                <button type="button" data-bs-target="#depoimentos-carrosel" data-bs-slide-to="2"></button>
-            </div>
+    <!-- CARROSEL DOS DEPOIMENTOS, MUITO COMPLICADO CUIDADO PRA NÃO QUEBRAR -->
+    <div id="depoimentos-carrosel" class="carousel slide px-2" data-bs-ride="carousel">
 
-            <!-- Os Slides -->
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="card mb-3">
-                        <div id="card-depoimentos" class="card-body"> 
-                            <h4 id="card-depoimentos-data">Anônima</h4> <span>23/13/2023</span>
-                            <p>Depois que as consultas começaram a minha qualidade de vida melhorou em 100%, graças às consultas pude compreender que eu não tive culpa nenhuma pela violência que sofri. Os psicólogos são muito acolhedores e atenciosos, e eu sou muito grata por terem me ouvido. Se você está com medo de se consultar, fique tranquila, aqui você será acolhida e ajudada! Muito obrigado por toda a ajuda, super recomendo a plataforma! </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="card mb-3">
-                        <div id="card-depoimentos" class="card-body"> 
-                            <h4  id="card-depoimentos-data">Anônima</h4> <span>30/02/2022</span>
-                            <p>Nunca imaginei que fazer terapia seria tão bom para mim, eu tinha o preconceito de que terapia era algo para doidos, mas eu estava errada, todos precisam de terapia, ainda mais depois de passar por uma situação traumática como eu passei. Eu tive muito medo de me cadastrar na plataforma, mas depois de ler o depoimento de outra paciente, finalmente criei coragem e foi a melhor coisa que já fiz. Graças a ajuda dos psicólogos tenho conseguido superar tudo que me aconteceu no passado, gostaria de agradecer por todo acolhimento e compreensão que eu encontrei aqui. Também gostaria de agradecer aos criadores da plataforma, porque eu jamais teria como pagar essas consultas, ainda mais depois da pandemia, então novamente muito obrigado! Recomendo a plataforma e te digo que não tenha medo de se cadastrar e consultar. </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="card mb-3">
-                        <div id="card-depoimentos" class="card-body"> 
-                            <h4 id="card-depoimentos-data">Anônima</h4> <span>21/00/2010</span>
-                            <p>Iniciar esse tratamento foi a melhor coisa que eu já fiz por mim, em muito tempo.Eu cheguei a essa plataforma e as consultas, cheia de receios e traumas, e assim que comecei o tratamento todos os meus receios sumiram- aqui eu encontrei psicólogos profissionais que estão dispostos a ouvir, aconselhar e ajudar todas as suas pacientes, embora as consultas sejam online parece que eles na sala de casa, de tão acolhida que eu me sinto- e aos poucos- porque eu sei que vai levar tempo- todos os meus traumas e medos estão indo embora. Muito obrigado por todo serviço prestado, tanto pelos psicólogos quanto pelos desenvolvedores dessa plataforma- porque eu não teria condições financeiras para arcar com o valor das consultas. Recomendo a plataforma e tive uma ótima experiência!</p>
-                        </div>
+        <!-- Indicadores/Pontinhos -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#depoimentos-carrosel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#depoimentos-carrosel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#depoimentos-carrosel" data-bs-slide-to="2"></button>
+        </div>
+
+        <!-- Os Slides -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="card mb-3">
+                    <div id="card-depoimentos" class="card-body"> 
+                        <h4 id="card-depoimentos-data">Anônima</h4> <span>23/13/2023</span>
+                        <p>Depois que as consultas começaram a minha qualidade de vida melhorou em 100%, graças às consultas pude compreender que eu não tive culpa nenhuma pela violência que sofri. Os psicólogos são muito acolhedores e atenciosos, e eu sou muito grata por terem me ouvido. Se você está com medo de se consultar, fique tranquila, aqui você será acolhida e ajudada! Muito obrigado por toda a ajuda, super recomendo a plataforma! </p>
                     </div>
                 </div>
             </div>
-
-            <!-- Controles de Esquerda e Direita -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#depoimentos-carrosel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#depoimentos-carrosel" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </button>
+            <div class="carousel-item">
+                <div class="card mb-3">
+                    <div id="card-depoimentos" class="card-body"> 
+                        <h4  id="card-depoimentos-data">Anônima</h4> <span>30/02/2022</span>
+                        <p>Nunca imaginei que fazer terapia seria tão bom para mim, eu tinha o preconceito de que terapia era algo para doidos, mas eu estava errada, todos precisam de terapia, ainda mais depois de passar por uma situação traumática como eu passei. Eu tive muito medo de me cadastrar na plataforma, mas depois de ler o depoimento de outra paciente, finalmente criei coragem e foi a melhor coisa que já fiz. Graças a ajuda dos psicólogos tenho conseguido superar tudo que me aconteceu no passado, gostaria de agradecer por todo acolhimento e compreensão que eu encontrei aqui. Também gostaria de agradecer aos criadores da plataforma, porque eu jamais teria como pagar essas consultas, ainda mais depois da pandemia, então novamente muito obrigado! Recomendo a plataforma e te digo que não tenha medo de se cadastrar e consultar. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card mb-3">
+                    <div id="card-depoimentos" class="card-body"> 
+                        <h4 id="card-depoimentos-data">Anônima</h4> <span>21/00/2010</span>
+                        <p>Iniciar esse tratamento foi a melhor coisa que eu já fiz por mim, em muito tempo.Eu cheguei a essa plataforma e as consultas, cheia de receios e traumas, e assim que comecei o tratamento todos os meus receios sumiram- aqui eu encontrei psicólogos profissionais que estão dispostos a ouvir, aconselhar e ajudar todas as suas pacientes, embora as consultas sejam online parece que eles na sala de casa, de tão acolhida que eu me sinto- e aos poucos- porque eu sei que vai levar tempo- todos os meus traumas e medos estão indo embora. Muito obrigado por todo serviço prestado, tanto pelos psicólogos quanto pelos desenvolvedores dessa plataforma- porque eu não teria condições financeiras para arcar com o valor das consultas. Recomendo a plataforma e tive uma ótima experiência!</p>
+                    </div>
+                </div>
             </div>
         </div>
+
+        <!-- Controles de Esquerda e Direita -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#depoimentos-carrosel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#depoimentos-carrosel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
     </div>
 </section>
 

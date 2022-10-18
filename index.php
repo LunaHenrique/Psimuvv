@@ -1,3 +1,13 @@
+
+<?php
+    //require_once('php/banco.php');
+    //$con = new Conexao();
+    //$conn = $con->conectar ('psimuvv', 'localhost', 'root','');
+
+    //$query = $conn->prepare("INSERT INTO paciente (idPaciente,nomePaciente,dataNascimento,cpfPaciente,celularPaciente,emailPaciente,senhaPaciente,mensagemPaciente,termoPaciente) VALUES (null, 'Guilherme','2022-10-18','11111111111', '1111111111','email@teste.com','111111111',1,0);");
+	//$query->execute();
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,6 +24,7 @@
 
     <title>Psimuvv</title>
 </head>
+
 <!-- BARRA DE NAVEGAÇÃO -->
 <header>
     <section id="cabeçalho">
@@ -69,7 +80,7 @@
                 <div class="d-flex justify-content-center">
                     <img class="mt-5 " src="imagens\por-que-terapia.png" alt="Grafico" style="width:400px;">
                 </div>
-                <h2>Por que fazer terapia?</h2>
+                <h2>Por que fazer psicoterapia?</h2>
                 <p>Muitas pessoas acham que terapia é “coisa de doido”, “frescura” ou só uma “conversinha”, mas terapia é um ambiente livre de julgamentos e seguro em que você e seu pscicoterapeuta/psicólogo caminharão juntos em direção à melhora da sua saúde mental e qualidade de vida. </p>
             </div>
         </div>
@@ -524,12 +535,14 @@
             <div id="card-sobre-nos" class="card mb-3">
                 <div id="card-sobre-nos" class="card-body"> 
                     <h4 class="card-title">Links Úteis</h4>
+                    <a class="card-link" href="https://site.cfp.org.br/wp-content/uploads/2012/07/codigo-de-etica-psicologia.pdf" >
+                        Código de ética do Psicologo</a> <br>
                     <a class="card-link" href="https://atosoficiais.com.br/cfp/resolucao-do-exercicio-profissional-n-4-2020-dispoe-sobre-regulamentacao-de-servicos-psicologicos-prestados-por-meio-de-tecnologia-da-informacao-e-da-comunicacao-durante-a-pandemia-do-covid-19">
                         Resolução CFP n°04/2020</a> <br>
                     <a class="card-link" href="https://mdh.metasix.solutions/portal/servicos/informacao?t=86&servico=235" >
                         Ligue 180 - Canal de denúncia</a> <br>
                     <a class="card-link" href="https://cadastro.cfp.org.br/" >
-                        Consulte o CRP do profissional</a> <br>
+                        Consulte o CRP do profissional</a>
                 </div>
             </div>
         </div>

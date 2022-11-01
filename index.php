@@ -123,24 +123,36 @@
                 <h5 id="consulta-subtitulo-texto" class="text-center">Nossas profissionais trabalham em consultas semanais, por isso escolha o dia e horario dos encontros</h5>
                 <div class="row">
                     <div class="col-6">
-                        <button id="btn-agendar-semana" type="button" class="btn mb-2" onClick="mostrarHorarios()" >Segunda</button>
-                        <button id="btn-agendar-semana" type="button" class="btn mb-2" onClick="mostrarHorarios()">Terça</button>
+                        <button id="btn-agendar-semana" type="button" class="btn mb-2" data-bs-toggle="collapse" data-bs-target="#horariosSegunda">Segunda</button>
+                        <button id="btn-agendar-semana" type="button" class="btn mb-2" data-bs-toggle="collapse" data-bs-target="#horariosTerca">Terça</button>
                         <button id="btn-agendar-semana" type="button" class="btn mb-2" onClick="mostrarHorarios()">Quarta</button>
                         <button id="btn-agendar-semana" type="button" class="btn mb-2" onClick="mostrarHorarios()">Quinta</button>
                         <button id="btn-agendar-semana" type="button" class="btn mb-2" onClick="mostrarHorarios()">Sexta</button>
                         <button id="btn-agendar-semana" type="button" class="btn mb-2" onClick="mostrarHorarios()">Sabado</button>
                     </div>
-
-                    <div id="agendar-horarios" class="col-6">
-                        <button id="btn-agendar-semana" type="button" class="btn mb-2">10:00</button>
-                        <button id="btn-agendar-semana" type="button" class="btn mb-2">11:00</button>
-                        <button id="btn-agendar-semana" type="button" class="btn mb-2">12:00</button>
-                        <button id="btn-agendar-semana" type="button" class="btn mb-2">13:00</button>
-                        <button id="btn-agendar-semana" type="button" class="btn mb-2">14:00</button>
-                        <button id="btn-agendar-semana" type="button" class="btn mb-2">15:00</button>
+                    <div id="horariosSemana" class="col-6">
+                        <div id="horariosSegunda" class="collapse col-12" data-bs-parent="#horariosSemana">
+                            <button id="btn-agendar-semana" type="button" class="btn mb-2">Segunda 10:00</button>
+                            <button id="btn-agendar-semana" type="button" class="btn mb-2">Segunda 11:00</button>
+                            <button id="btn-agendar-semana" type="button" class="btn mb-2">Segunda 12:00</button>
+                            <button id="btn-agendar-semana" type="button" class="btn mb-2">Segunda 13:00</button>
+                            <button id="btn-agendar-semana" type="button" class="btn mb-2">Segunda 14:00</button>
+                            <button id="btn-agendar-semana" type="button" class="btn mb-2">Segunda 15:00</button>
+                            <button id="btn-agendar-semana" type="button" class="btn mb-2">Segunda 16:00</button>
+                            <button id="btn-agendar-semana" type="button" class="btn mb-2">Segunda 17:00</button>
+                            <button id="btn-agendar-semana" type="button" class="btn mb-2">Segunda 18:00</button>
+                        </div>
+                        <div id="horariosTerca" class="collapse col-12" data-bs-parent="#horariosSemana">
+                            <button id="btn-agendar-semana" type="button" class="btn mb-2">Terça 10:00</button>
+                            <button id="btn-agendar-semana" type="button" class="btn mb-2">Terça 11:00</button>
+                            <button id="btn-agendar-semana" type="button" class="btn mb-2">Terça 12:00</button>
+                            <button id="btn-agendar-semana" type="button" class="btn mb-2">Terça 13:00</button>
+                            <button id="btn-agendar-semana" type="button" class="btn mb-2">Terça 14:00</button>
+                            <button id="btn-agendar-semana" type="button" class="btn mb-2">Terça 15:00</button>
+                        </div>
                     </div>
                 </div>
-                <p id="consulta-subtitulo-texto">Mais instruções serão enviadas ao seu email, e você sera notificada quando a data se aproximar, caso deseje agendar com uma profissional específica, favor contatar a equipe Psimuvv.</p>
+                <p id="consulta-subtitulo-texto">Mais instruções serão enviadas ao seu email, e você sera notificada quando a data se aproximar, caso deseje agendar com uma profissional específica, favor contatar a equipe Psimuvv no email equipe.psimuvv@gmail.com.</p>
             </div>
         </div>
     </div>
@@ -528,28 +540,13 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-sm-6">
+        <div class="col-sm-9">
             <p class="sobre-nos-texto">O Psimuvv foi desenvolvido a partir do trabalho de conclusão de cinco alunos, no âmbito da disciplina de Projeto Integrador, do curso técnico de Informática para Internet do Instituto Federal de São Paulo - São Miguel Paulista. A ideia do projeto foi retribuir à comunidade exterior o conhecimento adquirido na instituição, bem como  exercer os aprendizados obtidos nas disciplinas técnicas do curso. Para isso, a plataforma foi pensada para atender psicologicamente, de modo gratuito e a distância, mulheres vítimas de violência doméstica e familiar a fim de que essas possam recuperar sua saúde mental. </p>
-        </div>
-        <div class="col-sm-3">
-            <div id="card-sobre-nos" class="card mb-3">
-                <div id="card-sobre-nos" class="card-body"> 
-                    <h4 class="card-title">Links Úteis</h4>
-                    <a class="card-link" href="https://site.cfp.org.br/wp-content/uploads/2012/07/codigo-de-etica-psicologia.pdf" >
-                        Código de ética do Psicologo</a> <br>
-                    <a class="card-link" href="https://atosoficiais.com.br/cfp/resolucao-do-exercicio-profissional-n-4-2020-dispoe-sobre-regulamentacao-de-servicos-psicologicos-prestados-por-meio-de-tecnologia-da-informacao-e-da-comunicacao-durante-a-pandemia-do-covid-19">
-                        Resolução CFP n°04/2020</a> <br>
-                    <a class="card-link" href="https://mdh.metasix.solutions/portal/servicos/informacao?t=86&servico=235" >
-                        Ligue 180 - Canal de denúncia</a> <br>
-                    <a class="card-link" href="https://cadastro.cfp.org.br/" >
-                        Consulte o CRP do profissional</a>
-                </div>
-            </div>
         </div>
         <div class="col-sm-3">
             <div id="card-sobre-nos" class="card">
                 <div id="card-sobre-nos" class="card-body"> 
-                    <h4 class="card-title">Membras do Desenvolvimento</h4>
+                    <h4 class="card-title">Equipe desenvolvedora da plataforma</h4>
                     <ul>
                         <li>Ana Carolina</li>
                         <li>Laura Martins</li>
@@ -565,4 +562,41 @@
 </section>
 
 </body>
+<footer class="container-fluid p-4" id="rodape">
+    <div class="row">
+        <div class="col-sm-3">
+            <div id="card-sobre-nos" class="card mb-3">
+                <div id="card-sobre-nos" class="card-body"> 
+                    <h4 class="card-title">Links Úteis</h4>
+                    <a class="card-link" href="https://site.cfp.org.br/wp-content/uploads/2012/07/codigo-de-etica-psicologia.pdf" >
+                        Código de ética do Psicologo</a> <br>
+                    <a class="card-link" href="https://atosoficiais.com.br/cfp/resolucao-do-exercicio-profissional-n-4-2020-dispoe-sobre-regulamentacao-de-servicos-psicologicos-prestados-por-meio-de-tecnologia-da-informacao-e-da-comunicacao-durante-a-pandemia-do-covid-19">
+                        Resolução CFP n°04/2020</a> <br>
+                    <a class="card-link" href="https://mdh.metasix.solutions/portal/servicos/informacao?t=86&servico=235" >
+                        Ligue 180 - Canal de denúncia</a> <br>
+                    <a class="card-link" href="https://cadastro.cfp.org.br/" >
+                        Consulte o CRP do profissional</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div id="card-sobre-nos" class="card mb-3">
+                <div id="card-sobre-nos" class="card-body"> 
+                    <h4 class="card-title">Referências</h4>
+                    <p class="mb-0">Percepções da população brasileira sobre feminicídio (Instituto Patrícia Galvão/Locomotiva, 2021) . Disponível em: </p>
+                    <a href="https://dossies.agenciapatriciagalvao.org.br/dados-e-fontes/pesquisa/percepcoes-da-populacao-brasileira-sobre-feminicidio-instituto-patricia-galvao-locomotiva-2021/">https://dossies.agenciapatriciagalvao.org.br/dados-e-fontes/pesquisa/percepcoes-da-populacao-brasileira-sobre-feminicidio-instituto-patricia-galvao-locomotiva-2021/</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div id="card-sobre-nos" class="card mb-3">
+                <div id="card-sobre-nos" class="card-body"> 
+                    <h4 class="card-title">Contato</h4>
+                        <p>Email: equipe.psimuvv@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 </html>

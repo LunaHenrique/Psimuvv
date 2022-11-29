@@ -23,3 +23,15 @@ create table psicologo(
     mensagemPsicologo tinyint(1) null,
     termoPaciente tinyint(1) null
 );
+create table depoimento(
+	idDepoimento int not null auto_increment Primary key,
+    textoDepoimento varchar(1000) not null,
+    dataDepoimento date not null
+);
+create table acolhimento(
+	idAcolhimento int not null auto_increment Primary key,
+    nomeAcolhimento  varchar(100) not null,
+    celular varchar(20) not null,
+    emailAcolhimento varchar(100) not null,
+    textoAcolhimento varchar(1000) not null
+);

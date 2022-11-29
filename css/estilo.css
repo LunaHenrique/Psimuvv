@@ -52,6 +52,11 @@ span{
     display: none;
 }
 
+#horariosSemana{
+    overflow: auto;
+    max-height: inherit;
+}
+
 /*SOBRE NOS*/
 .sobre-nos-texto{
     text-align: justify;
@@ -60,12 +65,7 @@ span{
 #card-sobre-nos{
     color: black;
     border: 0;
-}
-
-#card-sobre-nos:hover{
-    background-color: #B3B6E3;
-    color: white;
-}
+}   
 
 /*DEPOIMENTOS*/
 
@@ -104,4 +104,9 @@ span{
 #card-img-nossa-equipe{
     height: 100px;
     width: min-content;
+}
+
+/*RODAPÉ*/
+#rodape{
+    background-color: #B3B6E3;
 }

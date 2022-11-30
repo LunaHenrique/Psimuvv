@@ -53,6 +53,9 @@
                         <a class="nav-link text-secondary" href="#depoimentos">Depoimentos</a>
                         </li>
                         <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#informacoes">Informações</a>
+                        </li>
+                        <li class="nav-item">
                         <a class="nav-link text-secondary" href="#sobre-nos">Sobre Nós</a>
                         </li>
                     </ul>
@@ -171,7 +174,7 @@
                             <img class="card-img-top" id="card-img-nossa-equipe" src="imagens/depoimentos-6.png">
                         </div>
                         <div class="col-8">
-                            <h3 class="mt-3">Big Yoshi</h3> 
+                            <h3 class="mt-3">Psicóloga 1</h3> 
                             <p>CRP: 22/242429<p>
                             <p>Abordagem: TCC</p>
                         </div>
@@ -187,9 +190,9 @@
                             <img class="card-img-top" id="card-img-nossa-equipe" src="imagens/depoimentos-6.png">
                         </div>
                         <div class="col-8">
-                            <h3 class="mt-3">Big Yoshi</h3> 
+                            <h3 class="mt-3">Psicóloga 2</h3> 
                             <p>CRP: 22/242429<p>
-                            <p>Abordagem: TCC</p>
+                            <p>Abordagem: Datanalise</p>
                         </div>
                     </div>
                 </div>
@@ -203,9 +206,9 @@
                             <img class="card-img-top" id="card-img-nossa-equipe" src="imagens/depoimentos-6.png">
                         </div>
                         <div class="col-8">
-                            <h3 class="mt-3">Big Yoshi</h3> 
+                            <h3 class="mt-3">Psicóloga 3</h3> 
                             <p>CRP: 22/242429<p>
-                            <p>Abordagem: TCC</p>
+                            <p>Abordagem: Psicanalise</p>
                         </div>
                     </div>
                 </div>
@@ -221,7 +224,7 @@
                             <img class="card-img-top" id="card-img-nossa-equipe" src="imagens/depoimentos-6.png">
                         </div>
                         <div class="col-8">
-                            <h3 class="mt-3">Big Yoshi</h3> 
+                            <h3 class="mt-3">Psicóloga 4</h3> 
                             <p>CRP: 22/242429<p>
                             <p>Abordagem: TCC</p>
                         </div>
@@ -237,9 +240,9 @@
                             <img class="card-img-top" id="card-img-nossa-equipe" src="imagens/depoimentos-6.png">
                         </div>
                         <div class="col-8">
-                            <h3 class="mt-3">Big Yoshi</h3> 
-                            <p>CRP: 22/242429<p>
-                            <p>Abordagem: TCC</p>
+                            <h3 class="mt-3">Psicóloga 5</h3> 
+                            <p>CRP: 22/242154<p>
+                            <p>Abordagem: Psicanalise</p>
                         </div>
                     </div>
                 </div>
@@ -253,8 +256,8 @@
                             <img class="card-img-top" id="card-img-nossa-equipe" src="imagens/depoimentos-6.png">
                         </div>
                         <div class="col-8">
-                            <h3 class="mt-3">Big Yoshi</h3> 
-                            <p>CRP: 22/242429<p>
+                            <h3 class="mt-3">Psicóloga 6</h3> 
+                            <p>CRP: 21/123131<p>
                             <p>Abordagem: TCC</p>
                         </div>
                     </div>
@@ -532,6 +535,60 @@
     </div>
 </section>
 
+<!--INFORMAÇÕES-->
+<section id="informacoes" class="container my-5">
+    <h2>Informações</h2>
+    <p>A seguir estão os resultados de uma pesquisa realizada entre os dias 01 e 25 de novembro de 2022 com a finalidade de entender o que a população pensa acerca da violência doméstica: 72 pessoas participaram da pesquisa.</p>
+    <div class="row">
+        <div class="col-sm-6">
+            <img id="img-pesquisa" src="imagens\Pesquisa\01-Genero.jpg">
+        </div>
+        <div class="col-sm-6">
+            <img id="img-pesquisa" src="imagens\Pesquisa\02-Idade.jpg">
+        </div>
+        <div class="col-sm-6">
+            <img id="img-pesquisa" src="imagens\Pesquisa\03-Sofreu.jpg">
+        </div>
+        <div class="col-sm-6">
+            <img id="img-pesquisa" src="imagens\Pesquisa\04-Tipos.jpg">
+        </div>
+        <div class="col-sm-6">
+            <img id="img-pesquisa" src="imagens\Pesquisa\05-Policial.jpg">
+        </div>
+        <div class="col-sm-6">
+            <img id="img-pesquisa" src="imagens\Pesquisa\06-Psicologo.jpg">
+        </div>
+        <div class="col-sm-6">
+            <img id="img-pesquisa" src="imagens\Pesquisa\07-PorQueNao.jpg">
+        </div>
+        <div class="col-sm-6">
+            <img id="img-pesquisa" src="imagens\Pesquisa\08-Conhece.jpg">
+        </div>
+        <div class="col-sm-6">
+            <img id="img-pesquisa" src="imagens\Pesquisa\09-Quantas.jpg">
+        </div>
+        <div class="col-sm-6">
+            <img id="img-pesquisa" src="imagens\Pesquisa\10-Registrou.jpg">
+        </div>
+        <div class="col-sm-6">
+            <img id="img-pesquisa" src="imagens\Pesquisa\11-PorQueNaoPsicologo.jpg">
+        </div>
+        <div class="col-sm-6">
+            <img id="img-pesquisa" src="imagens\Pesquisa\12-AchaQueAjuda.jpg">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6 mx-auto">
+            <img id="img-pesquisa" src="imagens\Pesquisa\13-QuaoImportante.jpg">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6 mx-auto">
+            <img id="img-pesquisa" src="imagens\Pesquisa\14-Grandao.jpg">
+        </div>
+    </div>
+</section>
+    
 <!-- SOBRE NÓS -->
 <section id="sobre-nos" class="container my-5">
     <div class="row">

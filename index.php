@@ -1,13 +1,3 @@
-
-<?php
-    //require_once('php/banco.php');
-    //$con = new Conexao();
-    //$conn = $con->conectar ('psimuvv', 'localhost', 'root','');
-
-    //$query = $conn->prepare("INSERT INTO paciente (idPaciente,nomePaciente,dataNascimento,cpfPaciente,celularPaciente,emailPaciente,senhaPaciente,mensagemPaciente,termoPaciente) VALUES (null, 'Guilherme','2022-10-18','11111111111', '1111111111','email@teste.com','111111111',1,0);");
-	//$query->execute();
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -128,10 +118,10 @@
                     <div class="col-6">
                         <button id="btn-agendar-semana" type="button" class="btn mb-2" data-bs-toggle="collapse" data-bs-target="#horariosSegunda">Segunda</button>
                         <button id="btn-agendar-semana" type="button" class="btn mb-2" data-bs-toggle="collapse" data-bs-target="#horariosTerca">Terça</button>
-                        <button id="btn-agendar-semana" type="button" class="btn mb-2" onClick="mostrarHorarios()">Quarta</button>
-                        <button id="btn-agendar-semana" type="button" class="btn mb-2" onClick="mostrarHorarios()">Quinta</button>
-                        <button id="btn-agendar-semana" type="button" class="btn mb-2" onClick="mostrarHorarios()">Sexta</button>
-                        <button id="btn-agendar-semana" type="button" class="btn mb-2" onClick="mostrarHorarios()">Sabado</button>
+                        <button id="btn-agendar-semana" type="button" class="btn mb-2" data-bs-toggle="collapse" data-bs-target="#horariosQuarta">Quarta</button>
+                        <button id="btn-agendar-semana" type="button" class="btn mb-2" data-bs-toggle="collapse" data-bs-target="#horariosQuinta">Quinta</button>
+                        <button id="btn-agendar-semana" type="button" class="btn mb-2" data-bs-toggle="collapse" data-bs-target="#horariosSexta">Sexta</button>
+                        <button id="btn-agendar-semana" type="button" class="btn mb-2" data-bs-toggle="collapse" data-bs-target="#horariosSabado">Sabado</button>
                     </div>
                     <div id="horariosSemana" class="col-6">
                         <div id="horariosSegunda" class="collapse col-12" data-bs-parent="#horariosSemana">
@@ -152,6 +142,38 @@
                             <button id="btn-agendar-semana" type="button" class="btn mb-2">Terça 13:00</button>
                             <button id="btn-agendar-semana" type="button" class="btn mb-2">Terça 14:00</button>
                             <button id="btn-agendar-semana" type="button" class="btn mb-2">Terça 15:00</button>
+                        </div>
+                        <div id="horariosQuarta" class="collapse col-12" data-bs-parent="#horariosSemana">
+                            <button id="btn-agendar-semana" type="button" class="btn mb-2">Quarta 10:00</button>
+                            <button id="btn-agendar-semana" type="button" class="btn mb-2">Quarta 11:00</button>
+                            <button id="btn-agendar-semana" type="button" class="btn mb-2">Quarta 12:00</button>
+                            <button id="btn-agendar-semana" type="button" class="btn mb-2">Quarta 13:00</button>
+                            <button id="btn-agendar-semana" type="button" class="btn mb-2">Quarta 14:00</button>
+                            <button id="btn-agendar-semana" type="button" class="btn mb-2">Quarta 15:00</button>
+                        </div>
+                        <div id="horariosQuinta" class="collapse col-12" data-bs-parent="#horariosSemana">
+                            <button id="btn-agendar-semana" type="button" class="btn mb-2">Quinta 10:00</button>
+                            <button id="btn-agendar-semana" type="button" class="btn mb-2">Quinta 11:00</button>
+                            <button id="btn-agendar-semana" type="button" class="btn mb-2">Quinta 12:00</button>
+                            <button id="btn-agendar-semana" type="button" class="btn mb-2">Quinta 13:00</button>
+                            <button id="btn-agendar-semana" type="button" class="btn mb-2">Quinta 14:00</button>
+                            <button id="btn-agendar-semana" type="button" class="btn mb-2">Quinta 15:00</button>
+                        </div>
+                        <div id="horariosSexta" class="collapse col-12" data-bs-parent="#horariosSemana">
+                            <button id="btn-agendar-semana" type="button" class="btn mb-2">Sexta 10:00</button>
+                            <button id="btn-agendar-semana" type="button" class="btn mb-2">Sexta 11:00</button>
+                            <button id="btn-agendar-semana" type="button" class="btn mb-2">Sexta 12:00</button>
+                            <button id="btn-agendar-semana" type="button" class="btn mb-2">Sexta 13:00</button>
+                            <button id="btn-agendar-semana" type="button" class="btn mb-2">Sexta 14:00</button>
+                            <button id="btn-agendar-semana" type="button" class="btn mb-2">Sexta 15:00</button>
+                        </div>
+                        <div id="horariosSabado" class="collapse col-12" data-bs-parent="#horariosSemana">
+                            <button id="btn-agendar-semana" type="button" class="btn mb-2">Sabado 10:00</button>
+                            <button id="btn-agendar-semana" type="button" class="btn mb-2">Sabado 11:00</button>
+                            <button id="btn-agendar-semana" type="button" class="btn mb-2">Sabado 12:00</button>
+                            <button id="btn-agendar-semana" type="button" class="btn mb-2">Sabado 13:00</button>
+                            <button id="btn-agendar-semana" type="button" class="btn mb-2">Sabado 14:00</button>
+                            <button id="btn-agendar-semana" type="button" class="btn mb-2">Sabado 15:00</button>
                         </div>
                     </div>
                 </div>
@@ -617,8 +639,9 @@
         </div>
     </div>
 </section>
-
 </body>
+
+<!--RODAPÉ-->
 <footer class="container-fluid p-4" id="rodape">
     <div class="row">
         <div class="col-sm-3">

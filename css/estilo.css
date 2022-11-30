@@ -59,14 +59,14 @@ span{
 
 /*INFORMAÇÕES*/
 #img-pesquisa{
-    max-width: 100vw;
+    max-width: 94vw;
     margin-bottom: 2%;
     
 }
 
 @media (min-width: 577px) {
     #img-pesquisa{
-        max-width: 40vw;
+        max-width: 30vw;
         margin: auto;
         margin-top: 0;
         margin-bottom: 2%;
